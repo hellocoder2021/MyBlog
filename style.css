@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: medium;
+    background-color: #ecf0f1;
+}
+.codder-wallpaper{
+    height: 625px;
+    position: relative;
+    top: 0px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(macbook-air-on-black-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    flex-direction: column;
+}
+.title{
+    line-height: 50px;
+    padding: 20px;
+    font-size: 23px!important;
+}
+.banner-btn{
+    width: 150px!important;
+    height: 48px!important;
+    color: skyblue;
+}
+.card{
+    margin:25px!important;
+}
+.achievements{
+    justify-content: center!important;
+}
+.aboutus{
+    justify-content: center;
+}
